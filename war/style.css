@@ -1,0 +1,324 @@
+
+html, body {
+	color: #333;
+	font-size: 11px;
+	font-family: 'Tahoma';
+	background: #FCFBE6 url(images/panoramico.jpg) repeat-x;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+/* The Nivo Slider styles */
+#slider {position:relative;width:400px;height:250px;z-index:88;overflow:hidden}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:400px;height:250px;border:0;padding:0;margin:0;z-index:60;display:none}
+/* The slices in the Slider */
+.nivo-slice {display:block;position:absolute;z-index:50;height:100%}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {position:absolute;z-index:99;right:40px;bottom:20px}
+.nivo-controlNav a {position:relative;z-index:99;cursor:pointer;text-indent:-5000px;width:22px;height:22px;float:left;margin-left:8px;background:url(../images/buttons.png) right 0 no-repeat}
+.nivo-controlNav a.active, .nivo-controlNav a:hover {background-position:left}
+#slider_shadow {background:url(../images/slider_shadow.png) no-repeat;width:100%;height:19px;overflow:hidden;font-size:0;line-height:0}
+
+
+#es img {
+  float:left;
+  width:400px;
+  height:250px;
+}
+
+.clear {
+	clear: both;
+	height:30px;
+}
+
+p {
+	margin: 10px 30px 10px 30px;
+}
+
+.date {
+	color:#ffd502;
+	text-decoration:overline;
+	font-size:10px;
+	padding: 10px 0 20px 0;
+	text-align:right;
+}
+
+#content_footer p {
+	margin: 10px 30px 10px 30px;
+	padding-top: 20px;
+	font-size:10px;
+	text-align:left;
+}
+
+.content_box p {
+	margin: 10px 0px 10px 0px;
+	color:#999999;
+	font-size:10px;
+	text-align:justify;
+}
+.content_box_large p {
+	margin: 10px 0px 10px 0px;
+	font-size:11px;
+	text-align:justify;
+}
+
+.content_box_photo h3 {
+	margin: 0px 0px 10px 45px;
+}
+
+#content_footer p {
+    margin: 10px 0px 10px 60px !important;
+	margin: 10px 0px 10px 85px;
+	font-size:10px;
+	text-align:justify;
+}
+
+.red {
+	color:#FCA808;
+}
+
+.yellow {
+	color:#F9D100;
+	font-weight:bold;
+}
+
+h1 {
+	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin: 10px 0px 0px 0px;
+	color:#898A3A;
+}
+
+h2 {
+	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	font-size:20px;
+	margin: 0px 50px 10px 30px !important;
+	margin: 0px 30px 10px 30px;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#072450;
+	font-weight:normal;
+}
+
+h3 {
+	margin: 0px 0px 10px 0px;
+	text-transform:uppercase;
+	font-size:12px;
+	color:#FCA611;
+}
+
+a {
+	text-decoration: none;
+	color:#04B404;
+	
+}
+a:hover {
+    color: #FF00FF;
+}
+
+#nav_list {
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	list-style: none;
+	overflow: hidden;
+}
+
+#nav_list li {
+	width: 170px;
+	overflow: hidden;
+	text-transform: uppercase;
+	font-size:9px;
+	font-weight:bold;
+}
+
+#nav_list a {
+	color:#fff;
+}
+
+.li_nav_body a  {
+	display: block;
+	width: 170px;
+	height: 20px;
+	background: url(images/nav_body.png) no-repeat;
+	padding-left: 25px;
+	line-height:20px;
+}
+
+.li_nav_footer a  {
+	display: block;
+	width: 170px;
+	height: 21px;
+	background: url(images/nav_body.png) no-repeat;
+	background-position:  0 0px;
+	padding-left: 25px;
+	line-height:21px;
+}
+
+.li_nav_body a:hover {
+	background-position:  0 -20px;
+	color:#016001;
+}
+
+.li_nav_footer a:hover {
+	background-position:  0 -20px;
+	color:#016001;
+}
+
+.li_active a:active  {
+	background: url(images/nav_body.png) no-repeat;
+	background-position:  0 -40px;
+	color:#fff;
+}
+
+#container {
+	width:100%;
+	background: url(images/sidebar_body.png) 0px 0px repeat-y;
+	min-height:100%;
+	height:100%;
+	
+}
+
+
+#menu_header {
+	width:170px;
+	height:232px;
+	text-align:left;
+	float:left;
+	margin:0 0 0 30px;
+}
+
+#menu_left {
+	width: 170px;
+	min-height: 100%;
+	margin:0 0 0 30px;
+	float: left;
+    background: url(images/sidebar_body.png) repeat-y;
+}
+
+.Login_box {
+	width: 170px;
+	float:left;
+	margin:0;
+}
+
+#head {
+	background-image:images/panoramico.jpg;
+	width: 500px;
+	height: 200px;
+	float:left;
+	text-align: right;
+}
+
+#content {
+	width: 100%;
+	text-align: justify;
+	float: left;
+	margin:0 0 0 0;
+	background: url(images/sidebar_body.png) 0px 0px repeat-y!important;
+}
+
+.content_box {
+	width: 130px;
+	margin:0px 0px 0px 30px;
+	float: right;
+}
+
+.content_box_large {
+	width: 490px;
+	margin:0px 0px 0px 20px;
+	float: left;
+}
+
+.content_box_photo {
+	width: 180px;
+	margin:0px 0px 0px -10px;
+	float: left;
+}
+
+#content_footer {
+	 
+	width:100%;
+	clear:both;
+	margin-bottom:-70px;
+	height:40px;
+
+}
+
+a img{
+	border: 1px solid #;
+}
+
+img.left,img.center,img.right {
+	padding: 4px;
+	border: 1px solid #a0a0a0;
+}
+
+img.left {
+	float: left;
+	margin: 0px 12px 5px 0px;
+	background:#fff;
+}
+
+img.right {
+	float: right;
+	margin: 0px 30px 5px 0px;
+}
+
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+}
+
+.hoverbox img
+{
+	background: #fff;
+	color: inherit;
+	vertical-align: top;
+	margin: 2px;
+	padding: 2px;
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.hoverbox li
+{
+	
+	color: inherit;
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+.Table{  
+	display: table;
+  clear: left;
+  float:left;
+}  
+.Title{  
+	display: table-caption;  
+  text-align: center;  
+  font-weight: bold;  
+  font-size: larger;  
+}  
+.Heading{  
+display: table-row;  
+font-weight: bold;  
+text-align: center;  
+}  
+.Row{  
+  display: table-row;  
+}  
+.Cell{  
+  display: table-cell;  
+  border: solid;  
+  border-width: thin;  
+  padding-left: 5px;  
+  padding-right: 5px;  
+}
